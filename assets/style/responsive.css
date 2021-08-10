@@ -1,0 +1,29 @@
+@media screen and (max-width:46.1875em) {
+    .nav
+    {
+        display: none;
+    }
+
+    .btn-menu 
+    {
+        display: block;
+    }
+    .slogan-btn h1
+    {
+       font-size: 40px;
+       padding:10px;
+    }
+    .slogan-btn h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .contrl-video
+    {
+        margin-top: 50px;
+    }
+    .form-login .formm
+    {
+        width: 97%;
+       
+    }
+}

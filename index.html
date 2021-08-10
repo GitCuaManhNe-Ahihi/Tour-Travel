@@ -5,15 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/icon.png" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Travel & Tour</title>
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/responsive.css">
 </head>
 <body>
-     <div id="home"></div>
+     <div id="home">
+         <div class="header">
+          <div class="btn-menu">
+              <i class="fa fa-bars openmenu" aria-hidden="true"></i>
+              <i class="fa fa-times closemenu active" aria-hidden="true"></i>
+          </div>
+            <ul class="nav-res">
+                <li><a href="#home" class="nav__element-res">Home</a></li>
+                <li><a href="#book" class="nav__element-res">Book</a></li>
+                <li><a href="#packages" class="nav__element-res">Packages</a></li>
+                <li><a href="#services" class="nav__element-res">Services</a></li>
+                <li><a href="#gallery" class="nav__element-res">Gallery</a></li>
+                <li><a href="#review" class="nav__element-res">Review</a></li>
+                <li><a href="#contact" class="nav__element-res">Contact</a></li>
+            </ul>
+             <div class="logo">
+                 Travel
+             </div>
+             <ul class="nav">
+                 <li><a href="#home" class="nav-element">Home</a></li>
+                 <li><a href="#book" class="nav-element">Book</a></li>
+                 <li><a href="#packages" class="nav-element">Packages</a></li>
+                 <li><a href="#services" class="nav-element">Services</a></li>
+                 <li><a href="#gallery" class="nav-element">Gallery</a></li>
+                 <li><a href="#review" class="nav-element">Review</a></li>
+                 <li><a href="#contact" class="nav-element">Contact</a></li>
+             </ul>
+             <div class="login-search">
+                 <i class="fa fa-user login" aria-hidden="true"></i>
+                 <i class="fa fa-search search" aria-hidden="true"></i>
+             </div>
+            </div>
+            <div class="slogan-btn">
+                <h1>Adventure is worthwhile</h1>
+                <h3>Discover New Places With Us, Adventure Awaits</h3>
+                <a href="#">Dicover More</a>
+                <div class="contrl-video">
+                    <span class="contrl-element" data-side="assets/images/vid-1.mp4"></span>
+                    <span class="contrl-element" data-side="assets/images/vid-2.mp4"></span>
+                    <span class="contrl-element" data-side="assets/images/vid-3.mp4"></span>
+                    <span class="contrl-element" data-side="assets/images/vid-4.mp4"></span>
+                    <span class="contrl-element" data-side="assets/images/vid-5.mp4"></span>
+                </div>
+            </div>
+             <video src="assets/images/vid-1.mp4" autoplay muted loop></video>
+             <div class="form-login">
+                      <i class="fa fa-times closelogin" aria-hidden="true"></i>
+                      <form action="" method="GET" class="formm">
+                          <legend>Login</legend>
+                          <input type="email" name="mail" id="mail" placeholder="Enter your email">
+                          <input type="password" name="password" id="password" placeholder="Enter your password">
+                          <button type="submit" class="submit-btn">Loggin Now</button>
+                          <input type="checkbox" name="remember-btn" id="remember-btn">
+                          <p>Forget Password? <a href="#">Click Here</a></p>
+                          <p>Don't Have An Account <a href="#">Register Now</a></p>
+                      </form>
+             </div>
+             <div class="area-search">
+                 <input type="search" name="search" id="search" placeholder="Search here...">
+                 <i class="fa fa-search" aria-hidden="true"></i>
+             </div>
+     </div>
      <div id="book"></div>
      <div id="packages"></div>
      <div id="services"></div>
      <div id="gallery"></div>
      <div id="review"></div>
      <div id="contact"></div>
+     <script src="assets/javascript/main.js"></script>
 </body>
 </html>
