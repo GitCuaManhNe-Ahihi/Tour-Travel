@@ -12,6 +12,7 @@
     {
        font-size: 40px;
        padding:10px;
+       margin-top: 60px;
     }
     .slogan-btn h3{
         font-size: 20px;
@@ -19,11 +20,150 @@
     }
     .contrl-video
     {
-        margin-top: 50px;
+  
+        width: 200px;
+        position: absolute;
+        bottom: 5%;
+        left: 0;
+        right: 0;
     }
+    .slogan-btn a
+    {
+      width: 200px;
+    }
+    
     .form-login .formm
     {
         width: 97%;
        
+    }
+}
+@media screen and (max-height:25em) {
+    .nav
+    {
+        display: none;
+    }
+
+    .btn-menu 
+    {
+        display: block;
+    }
+    .slogan-btn h1
+    {
+       font-size: 35px;
+       padding:7px;
+       margin-top: 60px;
+    }
+    .slogan-btn h3{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .contrl-video
+    {
+  
+        width: 175px;
+        position: absolute;
+        bottom: 0%;
+        left: 0;
+        right: 0;
+    }
+    .slogan-btn a
+    {
+      width: 175px;
+      padding: 2px;
+    }
+    
+    .form-login .formm
+    {
+        width: 97%;
+       
+    }
+}
+@media (min-width:46.1875em) and (max-width: 64em)
+{
+    .container
+    {
+        width: 97% ;
+    }
+    .container img,
+    .book-form
+    {
+      width: 48%;
+      height: 550px;
+    }
+}
+@media (max-width:47.9375em)
+{   .heading
+    {
+    padding: 30px 0;
+     font-size: 20px;
+
+      
+    }
+    .heading .space
+    {   
+        padding: 5px;
+        
+    }
+    .heading span:not(.space)
+    {   height: 30px;
+        width: 30px;
+        line-height: 30px;
+    }
+    .container
+    {
+        width: 97%;
+        flex-direction: column-reverse;
+    }
+    .container img,
+    .book-form
+    {
+      width: 100%;
+      height: 450px;
+    }
+    .book-form
+    {
+        margin-left: 0;
+    }
+    .book-form form label,
+    .book-form form input
+    {
+      
+        margin: 10px auto ;
+    
+    }
+    .book-form form input
+    {
+        height: 30px;
+        margin: 5px auto ;
+
+    }
+    .book-form form label
+    {
+        margin-top: 20px
+    }
+}
+
+/***/
+@media (min-width: 35.4375em) and (max-width:50em) {
+    .pack-container
+    {
+        width: 95%;
+    }
+    .pack-container .pack-element
+    {
+        width: 48%;
+    }
+    
+}
+@media (max-width: 35.4374em)
+{
+    .pack-container
+    {
+        width: 98%;
+    }
+    .pack-container .pack-element
+    {
+        width: 100%;
     }
 }
