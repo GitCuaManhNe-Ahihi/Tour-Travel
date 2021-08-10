@@ -232,14 +232,15 @@ video
   position: relative;
   
 }
-.form-login form #remember-btn::before
+.form-login form #remember-btn::after
 {
-    content: 'Remember Me';
+  content: 'Remember Me';
     color: black;
-   font-size: 12px;
+   font-size: 14px;
    position: absolute;
    left: 15px;
-   line-height: 12px;
+   line-height: 13px;
+   margin: auto;
    width: 200px;
    
 }
