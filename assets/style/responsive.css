@@ -170,6 +170,10 @@
     {
         width: 48%;
     }
+    #services  .about-services >.service-element
+    {
+        box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.212);
+    }
     
 }
 @media (max-width: 35.4374em)
@@ -182,5 +186,9 @@
     .pack-container .pack-element
     {
         width: 100%;
+    }
+    #services  .about-services >.service-element
+    {
+        box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.212);
     }
 }
