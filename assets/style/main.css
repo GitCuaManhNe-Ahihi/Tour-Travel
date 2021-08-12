@@ -12,7 +12,7 @@
   
 
 }
-*::placeholder,
+
 *::-webkit-input-placeholder
 {
     content: "";
@@ -801,7 +801,6 @@ text-align: center;}
     width: 91%;
     margin: 20px auto;
 }
-#contact .contac-container form textarea::placeholder,
 #contact .contac-container form textarea::-webkit-input-placeholder
 {
     top:5%;
