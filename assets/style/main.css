@@ -13,14 +13,7 @@
 
 }
 
-*::-webkit-input-placeholder
-{
-    content: "";
-    margin-left: 10px;
-    position: absolute;
-    top: 20%;
-    font-size: 15px;
-}
+
 html
 {
     scroll-behavior: smooth;
@@ -820,10 +813,6 @@ text-align: center;}
     height: 40%;
     width: 91%;
     margin: 15px auto;
-}
-#contact .contac-container form textarea::-webkit-input-placeholder
-{
-    top:5%;
 }
 #contact .contac-container form  .btn__send-message
 {
