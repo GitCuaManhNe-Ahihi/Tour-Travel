@@ -215,3 +215,31 @@
     }
 
 }
+@media (max-width: 46.25em) {
+    .footer-content 
+    {
+        flex-wrap: wrap;
+    }
+    .about-us ,
+    .bracnh-location,
+    .quick-links,
+    .follow-us
+    {
+    width: 47%;
+    text-align: left;
+    margin-top: 20px;
+    }
+   
+}
+@media (max-width: 28.125em)
+{
+    .about-us ,
+    .bracnh-location,
+    .quick-links,
+    .follow-us
+    {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    }
+}

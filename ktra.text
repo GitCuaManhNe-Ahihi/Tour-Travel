@@ -1,0 +1,72 @@
+ <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="box">
+                  
+                  <img src="assets/images/pic1.png" alt="">
+                  <p class="name">
+                    John Deo
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in quam hic quod mollitia commodi ducimus velit quasi vero, quas porro assumenda dicta laboriosam autem, eius labore sed unde obcaecati.</p>
+              
+              <div class="fa__vote-star">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+              </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="box">
+                  <img src="assets/images/pic2.png" alt="">
+                  <p class="name">
+                    John Deo
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in quam hic quod mollitia commodi ducimus velit quasi vero, quas porro assumenda dicta laboriosam autem, eius labore sed unde obcaecati.</p>
+              
+              <div class="fa__vote-star">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div> 
+            </div>
+              <div class="swiper-slide">
+                  <div class="box">
+                <img src="assets/images/pic3.png" alt="">
+                <p class="name">
+                    John Deo
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in quam hic quod mollitia commodi ducimus velit quasi vero, quas porro assumenda dicta laboriosam autem, eius labore sed unde obcaecati.</p>
+              
+              <div class="fa__vote-star">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+            </div> 
+        </div>
+              <div class="swiper-slide">
+                  <div class="box">
+                <img src="assets/images/pic4.png" alt="">
+                <p class="name">
+                    John Deo
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in quam hic quod mollitia commodi ducimus velit quasi vero, quas porro assumenda dicta laboriosam autem, eius labore sed unde obcaecati.</p>
+              
+              <div class="fa__vote-star">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+              </div>
+              </div>
+            </div>
+            </div>

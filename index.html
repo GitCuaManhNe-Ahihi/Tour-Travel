@@ -10,6 +10,7 @@
     <title>Travel & Tour</title>
     <link rel="stylesheet" href="assets/style/main.css">
     <link rel="stylesheet" href="assets/style/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />  
 </head>
 <body>
      <div id="home">
@@ -368,9 +369,9 @@
             <span>e</span>
             <span>w</span>
          </div>
-         <div class="swiper-container2">
+         <div class="swiper-container myslider">
             <div class="swiper-wrapper">
-              <div class="swiper-slide first">
+              <div class="swiper-slide">
                   <div class="box">
                   
                   <img src="assets/images/pic1.png" alt="">
@@ -421,26 +422,25 @@
                   <i class="fa fa-star-o" aria-hidden="true"></i>
               </div>
             </div> 
-        </div>
-              <div class="swiper-slide">
-                  <div class="box">
-                <img src="assets/images/pic4.png" alt="">
-                <p class="name">
-                    John Deo
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in quam hic quod mollitia commodi ducimus velit quasi vero, quas porro assumenda dicta laboriosam autem, eius labore sed unde obcaecati.</p>
-              
-              <div class="fa__vote-star">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-              </div>
-              </div>
             </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                    <img src="assets/images/pic4.png" alt="">
+                    <p class="name">
+                        John Deo
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto in quam hic quod mollitia commodi ducimus velit quasi vero, quas porro assumenda dicta laboriosam autem, eius labore sed unde obcaecati.</p>
+                
+                <div class="fa__vote-star">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                </div>
+                </div>
             </div>
-      </div>
      </div>
      <div id="contact">
         <div class="heading">
@@ -464,8 +464,104 @@
              </form>
          </div>
      </div>
-     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+     
+     <!-- Slider main container -->
+<div class="swiper-container slidebrand">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="assets/images/1.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="assets/images/2.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="assets/images/3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="assets/images/4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="assets/images/5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="assets/images/6.jpg" alt=""></div>
+    </div>
+  </div>
+  <div id="footer">
+      <div class="footer-content">
+      <div class="about-us">
+          <p class="name">About Us</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quidem, voluptatibus dolores delectus repudiandae quas nesciunt laborum iure accusantium</p>
+      </div>
+      <div class="bracnh-location">
+          <p class="name">Bracnh Location</p>
+          <ul>
+              <li><a href="#">India</a></li>
+              <li><a href="#">USA</a></li>
+              <li><a href="#">VietNam</a></li>
+              <li><a href="#">China</a></li>
+          </ul>
+      </div>
+      <div class="quick-links">
+          <p class="name">Quick Links</p>
+          <ul class="ql">
+            <li><a href="#home" class="qlink">Home</a></li>
+            <li><a href="#book" class="qlink">Book</a></li>
+            <li><a href="#packages" class="qlink">Packages</a></li>
+            <li><a href="#services" class="qlink">Services</a></li>
+            <li><a href="#gallery" class="qlink">Gallery</a></li>
+            <li><a href="#review" class="qlink">Review</a></li>
+            <li><a href="#contact" class="qlink">Contact</a></li>
+        </ul>
+      </div>
+      <div class="follow-us">
+          <p  class="name">Follow Us</p>
+          <ul>
+              <li><a href="#">Facebook</a> <i class="fa fa-facebook" aria-hidden="true"></i></li>
+              <li><a href="#">Instagram</a> <i class="fa fa-instagram" aria-hidden="true"></i></li>
+              <li><a href="#">Twitter</a><i class="fa fa-twitter" aria-hidden="true"></i></li>
+              <li><a href="#">Linkedin</a> <i class="fa fa-linkedin" aria-hidden="true"></i></li>
+          </ul>
+      </div>
+    </div>
+      <div class="final">Copy right by <i>Gitcuamanhne-ahihi</i> | All Rights Reserved!</div>
+  </div>
+
      <script src="assets/javascript/main.js"></script>
      <script src="assets/javascript/slider.js"></script>
+     <script type="module">
+        import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+      
+                var swiper = new Swiper(".myslider",
+        { spaceBetween:20,
+            loop:true,
+            autoplay:{
+                delay:2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView:1,
+                },
+                768: {
+                    slidesPerView:2,
+                },
+                1024: {
+                    slidesPerView:3,
+                },
+            },
+
+        });
+        
+        var swiper2 = new Swiper(".slidebrand",
+        { spaceBetween:20,
+            loop:true,
+            autoplay:{
+                delay:500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView:1,
+                },
+                768: {
+                    slidesPerView:2,
+                },
+                1024: {
+                    slidesPerView:3,
+                },
+            },
+
+        });
+      </script>
 </body>
 </html>
