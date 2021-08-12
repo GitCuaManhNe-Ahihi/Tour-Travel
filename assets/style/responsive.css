@@ -96,7 +96,7 @@
 @media (min-width:46.1875em) and (max-width: 64em)
 {
     .container
-    {
+    {  
         width: 97% ;
     }
     .container img,
@@ -127,7 +127,7 @@
     .container
     {
         width: 97%;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .container img,
     .book-form
@@ -195,4 +195,23 @@
     {
         box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.212);
     }
+}
+@media (max-width:47.9375em )
+{
+    #contact .contac-container
+    {
+        width: 90%;
+        flex-wrap: wrap;
+        
+    }
+    #contact .contac-container >img,
+    #contact .contac-container form
+    {
+        width: 100%;
+    }
+    #contact .contac-container form
+    {
+       height: 320px;
+    }
+
 }
