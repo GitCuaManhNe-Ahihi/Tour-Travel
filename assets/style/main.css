@@ -533,4 +533,56 @@ video
    font-size: 15px;
    margin: 10px 0px;
 }
-
+/**/
+.fa-hotel:before, .fa-bed:before {
+    content: "\f594";
+}
+#services
+{
+    
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 50px 0;
+    width: 100%;
+    text-align: center;
+  
+}
+#services .about-services
+{
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;  
+}
+#services .about-services .service-element
+{   width: 30%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+#services .about-services .service-element:hover
+{
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.212);
+}
+.service-element .iconservice
+{
+   color: var(--color-importaint);
+   font-size: 50px;
+   padding: 5px;
+   margin: 10px auto;
+   display: inline-block;
+}
+.service-element h1
+{
+    font-size:30px;
+}
+.service-element> .text
+{
+    display:block;
+    padding: 20px;
+}

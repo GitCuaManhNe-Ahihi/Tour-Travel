@@ -160,10 +160,12 @@
 
 /***/
 @media (min-width: 35.4375em) and (max-width:50em) {
+    #services  .about-services,
     .pack-container
     {
         width: 95%;
     }
+    #services  .about-services >.service-element,
     .pack-container .pack-element
     {
         width: 48%;
@@ -171,11 +173,12 @@
     
 }
 @media (max-width: 35.4374em)
-{
+{   #services  .about-services,
     .pack-container
     {
-        width: 98%;
+        width: 90%;
     }
+    #services  .about-services >.service-element,
     .pack-container .pack-element
     {
         width: 100%;
